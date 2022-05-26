@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Items</title>
+  </head>
+  <body>
+    <h1>Edit Items Here</h1>
+
+    <form action="/favorites/<%=favorite._id%>?_method=PUT" method="POST">
+      <div>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="faorite[name]"
+          value="<%=favorite.name%>"
+        />
+      </div>
+      <div>
+        <label for="rating">Rating</label>
+        <input
+          type="text"
+          id="rating"
+          name="favorite[rating]"
+          value="<%=favorite.rating%>"
+        />
+      </div>
+      <div>
+        <label for="price">Price</label>
+        <input
+          type="number"
+          id="rating"
+          name="favorite[price]"
+          value="<%=favorite.price%>"
+        />
+      </div>
+      <div>
+        <label for="description">Description</label>
+        <textarea
+          type="text"
+          id="description"
+          name="favorite[description]"
+          value="<%=favorite.description%>"
+        ></textarea>
+      </div>
+      <button>Update Item</button>
+    </form>
+
+    <a href="/favorites/<%=favorite._id%>">Back to Last Item</a>
+    <a href="/favorites">Back to All Favorites</a>
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorites</title>
+  </head>
+  <body>
+    <h1>My Favorites Here</h1>
+
+    <div>
+      <a href="/favorites/new">Add a New Favorite</a>
+    </div>
+    <ul>
+      <% for (let favorite of favorites) {%>
+      <li>
+        <a href="/favorites/<%= favorite._id %>"
+          ><%= favorite.name %> - Rating: <%= favorite.rating %></a
+        >
+      </li>
+      <% } %>
+    </ul>
+  </body>
+</html>
