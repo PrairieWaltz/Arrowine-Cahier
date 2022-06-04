@@ -6,7 +6,7 @@ Mon Cahier is a simple web app to help track favorite purchases at any retailer.
 
 ## Usage
 
-![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/2022-05-26-4.png?raw=false)
+![yer fucked](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/2022-05-26-4.png?raw=false)
 
 A clean landing page will allow sign-up or sign-in buttons and a small nav with a "How it Works" section. 
 
