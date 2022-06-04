@@ -6,20 +6,20 @@ Mon Cahier is a simple web app to help track favorite purchases at any retailer.
 
 ## Usage
 
-![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/2022-05-26(4).jpg?raw=true)
+![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/2022-05-26(4).png?raw=true)
 
 A clean landing page will allow sign-up or sign-in buttons and a small nav with a "How it Works" section. 
 
-![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/2022-05-26(3).jpg?raw=true)
+![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/2022-05-26(3).png?raw=true)
 
 A condensed "My Favorites" section to list all items in user db history. Items will cascade from top with highest rating first. In the event of duplicate ratings sort will default to date added with earlier sorting higher. 
 The nav bar will swap to offer only needed items. "How it Works", "Sign-In" and "Sign-Up" are replaced by "Home", "All Favorites" and "Add a New Favorite". 
 
-![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/2022-05-26(8).jpg?raw=true)
+![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/2022-05-26(8).png?raw=true)
 
 Each item on the Favorites list will contain a single button which navigates to a larger details page. Only addition to details page will be price at time of purchase (can be left blank by user) and an "Edit" and "Delete" button for further action. 
 
-![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/2022-05-26(6).jpg?raw=true)
+![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/2022-05-26(6).png?raw=true)
 
 ## Configuration
 
