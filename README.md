@@ -10,7 +10,7 @@ Mon Cahier is a simple web app to help track favorite purchases at any retailer.
 
 A clean landing page will allow sign-up or sign-in buttons and a small nav with a "How it Works" section. 
 
-![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/lee-heights.jpg?raw=true)
+![alt text](https://github.com/PrairieWaltz/Arrowine-Cahier/blob/master/views/img/lee-heights.jpg?raw=true)
 
 A condensed "My Favorites" section to list all items in user db history. Items will cascade from top with highest rating first. In the event of duplicate ratings sort will default to date added with earlier sorting higher. 
 The nav bar will swap to offer only needed items. "How it Works", "Sign-In" and "Sign-Up" are replaced by "Home", "All Favorites" and "Add a New Favorite". 
